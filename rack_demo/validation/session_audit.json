@@ -1,0 +1,49 @@
+{
+  "sequence": [
+    {
+      "size": "1u",
+      "level": "lower",
+      "installed": true,
+      "motion_batches": 13
+    },
+    {
+      "size": "2u",
+      "level": "lower",
+      "installed": false,
+      "motion_batches": 0
+    },
+    {
+      "size": "2u",
+      "level": "upper",
+      "installed": true,
+      "motion_batches": 13
+    }
+  ],
+  "placements": [
+    {
+      "size": "1u",
+      "level": "lower",
+      "entity_id": 231,
+      "position": {
+        "x": 0.22995035768659441,
+        "y": -2.4220471508999597e-08,
+        "z": 1.0560000170852308
+      },
+      "error_m": 4.9642322254259434e-05,
+      "drift_after_other_operations_m": 0.0
+    },
+    {
+      "size": "2u",
+      "level": "upper",
+      "entity_id": 259,
+      "position": {
+        "x": 0.22995071611811432,
+        "y": -1.1884274041193278e-13,
+        "z": 1.3650000286942376
+      },
+      "error_m": 4.92838902389167e-05,
+      "drift_after_other_operations_m": 0.0
+    }
+  ],
+  "collision_rejected_before_motion": true
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "stock": {
+    "1u": "installed",
+    "2u": "installed"
+  },
+  "installed": [
+    {
+      "model": "rack_stock_1u",
+      "size": "1u",
+      "level": "lower",
+      "tray_height": 0.03
+    },
+    {
+      "model": "rack_stock_2u",
+      "size": "2u",
+      "level": "upper",
+      "tray_height": 0.33
+    }
+  ],
+  "joint_topics": [
+    "/rack_demo/grasp/1u/1792236354727",
+    "/rack_demo/mount/1u/1792236417219",
+    "/rack_demo/grasp/2u/1792236539519",
+    "/rack_demo/mount/2u/1792236593735"
+  ]
+}

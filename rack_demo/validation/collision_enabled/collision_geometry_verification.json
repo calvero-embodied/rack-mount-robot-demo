@@ -1,0 +1,15 @@
+{
+  "original_links_with_collisions": [
+    "crane_plus_base",
+    "crane_plus_link1",
+    "crane_plus_link2",
+    "crane_plus_link3",
+    "crane_plus_link4",
+    "crane_plus_link_hand"
+  ],
+  "fixture_collision_shapes": 6,
+  "hand_sweep_samples": 81,
+  "hand_sweep_minimum_clearance_m": 0.009660988681160557,
+  "deliberate_fixture_collision_rejected": "Collision: crane_plus_link_hand/mesh <-> rack_support_tray/deliberate_obstacle",
+  "deliberate_equipment_collision_rejected": "Collision: crane_plus_link_hand/mesh <-> rack_stock_test/body"
+}

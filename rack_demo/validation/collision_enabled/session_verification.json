@@ -1,0 +1,20 @@
+[
+  {
+    "size": "1u",
+    "level": "lower",
+    "installed": true,
+    "motion_batches": 13
+  },
+  {
+    "size": "2u",
+    "level": "lower",
+    "installed": false,
+    "motion_batches": 0
+  },
+  {
+    "size": "2u",
+    "level": "upper",
+    "installed": true,
+    "motion_batches": 13
+  }
+]

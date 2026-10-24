@@ -1,0 +1,98 @@
+[
+  {
+    "order": [
+      "1u",
+      "lower",
+      "2u",
+      "upper"
+    ],
+    "size": "1u",
+    "level": "lower",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999843
+  },
+  {
+    "order": [
+      "1u",
+      "lower",
+      "2u",
+      "upper"
+    ],
+    "size": "2u",
+    "level": "upper",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999903
+  },
+  {
+    "order": [
+      "2u",
+      "upper",
+      "1u",
+      "lower"
+    ],
+    "size": "2u",
+    "level": "upper",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999903
+  },
+  {
+    "order": [
+      "2u",
+      "upper",
+      "1u",
+      "lower"
+    ],
+    "size": "1u",
+    "level": "lower",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999843
+  },
+  {
+    "order": [
+      "1u",
+      "upper",
+      "2u",
+      "lower"
+    ],
+    "size": "1u",
+    "level": "upper",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999843
+  },
+  {
+    "order": [
+      "1u",
+      "upper",
+      "2u",
+      "lower"
+    ],
+    "size": "2u",
+    "level": "lower",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999963
+  },
+  {
+    "order": [
+      "2u",
+      "lower",
+      "1u",
+      "upper"
+    ],
+    "size": "2u",
+    "level": "lower",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999963
+  },
+  {
+    "order": [
+      "2u",
+      "lower",
+      "1u",
+      "upper"
+    ],
+    "size": "1u",
+    "level": "upper",
+    "passed": true,
+    "minimum_clearance_m": 0.003999999999999843
+  }
+]

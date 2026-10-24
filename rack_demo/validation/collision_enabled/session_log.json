@@ -1,0 +1,832 @@
+[
+  {
+    "time": 1792236289.376384,
+    "state": "request_accepted",
+    "size": "1u",
+    "level": "lower",
+    "source_side": "left",
+    "entity_id": 142,
+    "target": [
+      0.23,
+      0.0,
+      0.03,
+      0
+    ],
+    "decision_source": "user_answers_no_ai"
+  },
+  {
+    "time": 1792236290.7990246,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.009660988681160557,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236300.010942,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.1,
+      0.0,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.013589737570477656,
+    "lift_error_m": 0.0005978711272490445
+  },
+  {
+    "time": 1792236302.7684577,
+    "state": "gripper_open",
+    "size": "1u",
+    "level": "lower"
+  },
+  {
+    "time": 1792236304.256977,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.009660988680870852,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236315.9941273,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      6.123233995736766e-18,
+      0.1,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.014137166959031777,
+    "lift_error_m": 2.2379043063125437e-12
+  },
+  {
+    "time": 1792236316.4772432,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.007694652546042804,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236322.2793825,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      4.286263797015737e-18,
+      0.07,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.006525368975965673,
+    "lift_error_m": 2.940717114263691e-12
+  },
+  {
+    "time": 1792236322.9143217,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.007709343469814838,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236333.4384317,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      4.286263797015737e-18,
+      0.07,
+      0.09,
+      0.04
+    ],
+    "arm_error_rad": 0.0015278176679518474,
+    "lift_error_m": 0.000749999996928298
+  },
+  {
+    "time": 1792236334.7899306,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.007805026669705599,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236345.2120538,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      1.2858791391047208e-17,
+      0.21,
+      0.09,
+      0.04
+    ],
+    "arm_error_rad": 0.013568184314635356,
+    "lift_error_m": 2.0622253904534205e-12
+  },
+  {
+    "time": 1792236345.536313,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.003999999999999922,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236350.6773407,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      1.2858791391047208e-17,
+      0.21,
+      0.115,
+      0.04
+    ],
+    "arm_error_rad": 0.007900815650629944,
+    "lift_error_m": 2.14887135863151e-12
+  },
+  {
+    "time": 1792236351.818126,
+    "state": "equipment_check",
+    "size": "1u",
+    "level": "lower",
+    "entity_id": 142,
+    "position": {
+      "x": -4.911058661658372e-14,
+      "y": 0.2099509748470665,
+      "z": 1.140999646181258
+    },
+    "error_m": 4.90264296869877e-05
+  },
+  {
+    "time": 1792236354.7274342,
+    "state": "gripper_closed",
+    "size": "1u",
+    "level": "lower"
+  },
+  {
+    "time": 1792236355.4861553,
+    "state": "grasped",
+    "size": "1u",
+    "level": "lower",
+    "method": "Gazebo fixed joint after contact pickup"
+  },
+  {
+    "time": 1792236356.4395802,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.003999999999999695,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236366.3947701,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      6.123233995736766e-18,
+      0.1,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.013800460535371095,
+    "lift_error_m": 0.0004920750024791781
+  },
+  {
+    "time": 1792236366.519643,
+    "state": "equipment_check",
+    "size": "1u",
+    "level": "lower",
+    "entity_id": 142,
+    "position": {
+      "x": -8.020048953581491e-14,
+      "y": 0.10025189469158553,
+      "z": 1.1859007051090376
+    },
+    "error_m": 0.00027075895372112113
+  },
+  {
+    "time": 1792236367.9566922,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.003999999999999732,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236380.1736133,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.1,
+      0.0,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.014137166951867619,
+    "lift_error_m": 2.5217467003457728e-12
+  },
+  {
+    "time": 1792236380.8644326,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.003999999999999755,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236395.537555,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.12,
+      0.0,
+      0.03,
+      -1.3877787807814457e-17
+    ],
+    "arm_error_rad": 0.004336668498411467,
+    "lift_error_m": 0.0007499999980926124
+  },
+  {
+    "time": 1792236396.526682,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.003999999999999678,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236415.0896327,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.23,
+      0.0,
+      0.03,
+      0.0
+    ],
+    "arm_error_rad": 0.01360739108841158,
+    "lift_error_m": 2.5374440635291226e-12
+  },
+  {
+    "time": 1792236415.2175803,
+    "state": "equipment_check",
+    "size": "1u",
+    "level": "lower",
+    "entity_id": 142,
+    "position": {
+      "x": 0.22970120672247918,
+      "y": 8.151940936194294e-14,
+      "z": 1.0560169498674137
+    },
+    "error_m": 0.00029927365520036615
+  },
+  {
+    "time": 1792236415.2181637,
+    "state": "holding_waiting_for_fastening",
+    "size": "1u",
+    "level": "lower"
+  },
+  {
+    "time": 1792236427.4406283,
+    "state": "gripper_open",
+    "size": "1u",
+    "level": "lower"
+  },
+  {
+    "time": 1792236427.441119,
+    "state": "fastened",
+    "size": "1u",
+    "level": "lower",
+    "method": "Gazebo fixed joint to rack"
+  },
+  {
+    "time": 1792236427.6207714,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.004000000000000288,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236437.791607,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.23,
+      0.0,
+      0.022,
+      0.0
+    ],
+    "arm_error_rad": 0.00156463155535011,
+    "lift_error_m": 2.3397451629331773e-12
+  },
+  {
+    "time": 1792236439.5023606,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.004000000000000235,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236458.7964733,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.12,
+      0.0,
+      0.022,
+      0.0
+    ],
+    "arm_error_rad": 0.013846755564661473,
+    "lift_error_m": 1.6119422547151015e-12
+  },
+  {
+    "time": 1792236459.6437166,
+    "state": "equipment_check",
+    "size": "1u",
+    "level": "lower",
+    "entity_id": 142,
+    "position": {
+      "x": 0.22995061007913578,
+      "y": 8.145853262573274e-14,
+      "z": 1.0560000170853243
+    },
+    "error_m": 4.938992381936943e-05
+  },
+  {
+    "time": 1792236460.4803035,
+    "state": "path_checked",
+    "size": "1u",
+    "level": "lower",
+    "minimum_clearance_m": 0.007741187968885103,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236475.2953515,
+    "state": "motion_complete",
+    "size": "1u",
+    "level": "lower",
+    "target": [
+      0.1,
+      0.0,
+      0.16,
+      0.10000000000000002
+    ],
+    "arm_error_rad": 0.00475287416504136,
+    "lift_error_m": 0.0008333333355614175
+  },
+  {
+    "time": 1792236475.2963371,
+    "state": "complete",
+    "size": "1u",
+    "level": "lower",
+    "installed_count": 1
+  },
+  {
+    "time": 1792236475.435154,
+    "state": "collision_blocked",
+    "size": "2u",
+    "level": "lower",
+    "message": "下段には既に1Uが設置されています。ぶつかるため動作しません。",
+    "motion_count": 13
+  },
+  {
+    "time": 1792236475.598487,
+    "state": "request_accepted",
+    "size": "2u",
+    "level": "upper",
+    "source_side": "right",
+    "entity_id": 170,
+    "target": [
+      0.23,
+      0.0,
+      0.33,
+      0.28
+    ],
+    "decision_source": "user_answers_no_ai"
+  },
+  {
+    "time": 1792236475.8676884,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.009660988681160557,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236485.5856242,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.1,
+      0.0,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 6.16582340740024e-11,
+    "lift_error_m": 2.2379043063125437e-12
+  },
+  {
+    "time": 1792236488.4829063,
+    "state": "gripper_open",
+    "size": "2u",
+    "level": "upper"
+  },
+  {
+    "time": 1792236490.442069,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.009660988680851865,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236502.8561563,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      6.123233995736766e-18,
+      -0.1,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.011451105240180226,
+    "lift_error_m": 2.2379043063125437e-12
+  },
+  {
+    "time": 1792236503.3854082,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.0076946525460426995,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236509.4148402,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      4.286263797015737e-18,
+      -0.07,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.006525368975965673,
+    "lift_error_m": 2.940717114263691e-12
+  },
+  {
+    "time": 1792236510.0436924,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.007709343469814865,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236519.4886649,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      4.286263797015737e-18,
+      -0.07,
+      0.09,
+      0.04
+    ],
+    "arm_error_rad": 0.0013750359006534651,
+    "lift_error_m": 0.0006749999969281606
+  },
+  {
+    "time": 1792236520.7719595,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.007600083281021001,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236530.6300085,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      1.2858791391047208e-17,
+      -0.21,
+      0.09,
+      0.04
+    ],
+    "arm_error_rad": 0.013568184314635356,
+    "lift_error_m": 2.0622253904534205e-12
+  },
+  {
+    "time": 1792236530.9137018,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.003999999999999963,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236535.6685631,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      1.2858791391047208e-17,
+      -0.21,
+      0.115,
+      0.04
+    ],
+    "arm_error_rad": 0.00790081569011114,
+    "lift_error_m": 2.3914759061938184e-12
+  },
+  {
+    "time": 1792236536.8000574,
+    "state": "equipment_check",
+    "size": "2u",
+    "level": "upper",
+    "entity_id": 170,
+    "position": {
+      "x": -2.987525252099674e-08,
+      "y": -0.20995054555086423,
+      "z": 1.1499996449537977
+    },
+    "error_m": 4.9455732626844824e-05
+  },
+  {
+    "time": 1792236539.5188491,
+    "state": "gripper_closed",
+    "size": "2u",
+    "level": "upper"
+  },
+  {
+    "time": 1792236540.3643274,
+    "state": "grasped",
+    "size": "2u",
+    "level": "upper",
+    "method": "Gazebo fixed joint after contact pickup"
+  },
+  {
+    "time": 1792236541.3113434,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.003999999999999868,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236550.5879045,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      6.123233995736766e-18,
+      -0.1,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.01380046053815498,
+    "lift_error_m": 0.0004920750027511689
+  },
+  {
+    "time": 1792236550.6969388,
+    "state": "equipment_check",
+    "size": "2u",
+    "level": "upper",
+    "entity_id": 170,
+    "position": {
+      "x": -2.987532296259018e-08,
+      "y": -0.10027133916164972,
+      "z": 1.1948941087490246
+    },
+    "error_m": 0.0002912694604149441
+  },
+  {
+    "time": 1792236552.3183396,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.003999999999999887,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236564.1963568,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.1,
+      0.0,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.010305994707822511,
+    "lift_error_m": 2.798178355689629e-12
+  },
+  {
+    "time": 1792236565.2418396,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.003999999999999867,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236578.9663115,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.12,
+      0.0,
+      0.33,
+      0.28
+    ],
+    "arm_error_rad": 0.0022010903228008027,
+    "lift_error_m": 0.0012150000023771201
+  },
+  {
+    "time": 1792236580.0077534,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.003999999999999844,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236591.6121402,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.23,
+      0.0,
+      0.33,
+      0.28
+    ],
+    "arm_error_rad": 0.014713485836678974,
+    "lift_error_m": 2.614242156084856e-12
+  },
+  {
+    "time": 1792236591.7309086,
+    "state": "equipment_check",
+    "size": "2u",
+    "level": "upper",
+    "entity_id": 170,
+    "position": {
+      "x": 0.22982067931044317,
+      "y": -2.9875324078340276e-08,
+      "z": 1.3650171620865896
+    },
+    "error_m": 0.00018014007830514966
+  },
+  {
+    "time": 1792236591.7316997,
+    "state": "holding_waiting_for_fastening",
+    "size": "2u",
+    "level": "upper"
+  },
+  {
+    "time": 1792236598.6067805,
+    "state": "gripper_open",
+    "size": "2u",
+    "level": "upper"
+  },
+  {
+    "time": 1792236598.6086242,
+    "state": "fastened",
+    "size": "2u",
+    "level": "upper",
+    "method": "Gazebo fixed joint to rack"
+  },
+  {
+    "time": 1792236598.7892196,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.0040000298812235225,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236603.3532465,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.23,
+      0.0,
+      0.322,
+      0.28
+    ],
+    "arm_error_rad": 0.0020601705238467716,
+    "lift_error_m": 2.1809221095736575e-12
+  },
+  {
+    "time": 1792236605.4452772,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.008621357959574824,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236617.085866,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.09,
+      0.0,
+      0.322,
+      0.28
+    ],
+    "arm_error_rad": 0.014747907159325502,
+    "lift_error_m": 2.371380869448103e-12
+  },
+  {
+    "time": 1792236617.9341602,
+    "state": "equipment_check",
+    "size": "2u",
+    "level": "upper",
+    "entity_id": 170,
+    "position": {
+      "x": 0.22995025293472063,
+      "y": -2.9875324122815944e-08,
+      "z": 1.36500002869451
+    },
+    "error_m": 4.974708252572189e-05
+  },
+  {
+    "time": 1792236619.4044898,
+    "state": "path_checked",
+    "size": "2u",
+    "level": "upper",
+    "minimum_clearance_m": 0.008794055894845469,
+    "samples_max_joint_step_rad": 0.01,
+    "samples_max_lift_step_m": 0.001
+  },
+  {
+    "time": 1792236632.9953682,
+    "state": "motion_complete",
+    "size": "2u",
+    "level": "upper",
+    "target": [
+      0.1,
+      0.0,
+      0.16,
+      0.1
+    ],
+    "arm_error_rad": 0.002153801401222122,
+    "lift_error_m": 0.0014999999977611533
+  },
+  {
+    "time": 1792236632.9962015,
+    "state": "complete",
+    "size": "2u",
+    "level": "upper",
+    "installed_count": 2
+  }
+]

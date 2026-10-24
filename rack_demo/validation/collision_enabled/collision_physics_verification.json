@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "fixture",
+    "passed": true,
+    "subscriptions": 1,
+    "pairs": [
+      {
+        "pair": "probe::crane_plus_link_hand::crane_plus_link_hand_collision | probe::rack_support_tray::deliberate_fixture_collision",
+        "messages": 23,
+        "maximum_depth_m": 0
+      }
+    ]
+  },
+  {
+    "mode": "equipment",
+    "passed": true,
+    "subscriptions": 1,
+    "pairs": [
+      {
+        "pair": "probe::crane_plus_link_hand::crane_plus_link_hand_collision | probe_equipment::chassis::body_collision",
+        "messages": 19,
+        "maximum_depth_m": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "sequence": [
+    {
+      "size": "1u",
+      "level": "lower",
+      "installed": true,
+      "motion_batches": 13
+    },
+    {
+      "size": "2u",
+      "level": "lower",
+      "installed": false,
+      "motion_batches": 0
+    },
+    {
+      "size": "2u",
+      "level": "upper",
+      "installed": true,
+      "motion_batches": 13
+    }
+  ],
+  "placements": [
+    {
+      "size": "1u",
+      "level": "lower",
+      "entity_id": 142,
+      "position": {
+        "x": 0.22995061007913578,
+        "y": 8.145853262573274e-14,
+        "z": 1.0560000170853243
+      },
+      "error_m": 4.938992381936943e-05,
+      "drift_after_other_operations_m": 0.0
+    },
+    {
+      "size": "2u",
+      "level": "upper",
+      "entity_id": 170,
+      "position": {
+        "x": 0.22995025293472063,
+        "y": -2.9875324122815944e-08,
+        "z": 1.36500002869451
+      },
+      "error_m": 4.974708252572189e-05,
+      "drift_after_other_operations_m": 0.0
+    }
+  ],
+  "collision_rejected_before_motion": true,
+  "checked_motion_batches": 26,
+  "minimum_planned_clearance_m": 0.003999999999999678,
+  "unexpected_physical_contacts": [],
+  "physical_contacts": {
+    "subscriptions": 11,
+    "pairs": [
+      {
+        "pair": "crane_plus::rack_support_tray::rack_support_tray_fixed_joint_lump__plate_collision_collision | rack_stock_1u::chassis::body_collision",
+        "messages": 6147,
+        "maximum_depth_m": 0
+      },
+      {
+        "pair": "crane_plus::rack_support_tray::rack_support_tray_fixed_joint_lump__plate_collision_collision | rack_stock_2u::chassis::body_collision",
+        "messages": 9180,
+        "maximum_depth_m": 0
+      }
+    ]
+  },
+  "isolated_physics_checks": [
+    {
+      "mode": "fixture",
+      "passed": true,
+      "subscriptions": 1,
+      "pairs": [
+        {
+          "pair": "probe::crane_plus_link_hand::crane_plus_link_hand_collision | probe::rack_support_tray::deliberate_fixture_collision",
+          "messages": 23,
+          "maximum_depth_m": 0
+        }
+      ]
+    },
+    {
+      "mode": "equipment",
+      "passed": true,
+      "subscriptions": 1,
+      "pairs": [
+        {
+          "pair": "probe::crane_plus_link_hand::crane_plus_link_hand_collision | probe_equipment::chassis::body_collision",
+          "messages": 19,
+          "maximum_depth_m": 0
+        }
+      ]
+    }
+  ],
+  "offline_path_checks": [
+    {
+      "order": [
+        "1u",
+        "lower",
+        "2u",
+        "upper"
+      ],
+      "size": "1u",
+      "level": "lower",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999843
+    },
+    {
+      "order": [
+        "1u",
+        "lower",
+        "2u",
+        "upper"
+      ],
+      "size": "2u",
+      "level": "upper",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999903
+    },
+    {
+      "order": [
+        "2u",
+        "upper",
+        "1u",
+        "lower"
+      ],
+      "size": "2u",
+      "level": "upper",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999903
+    },
+    {
+      "order": [
+        "2u",
+        "upper",
+        "1u",
+        "lower"
+      ],
+      "size": "1u",
+      "level": "lower",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999843
+    },
+    {
+      "order": [
+        "1u",
+        "upper",
+        "2u",
+        "lower"
+      ],
+      "size": "1u",
+      "level": "upper",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999843
+    },
+    {
+      "order": [
+        "1u",
+        "upper",
+        "2u",
+        "lower"
+      ],
+      "size": "2u",
+      "level": "lower",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999963
+    },
+    {
+      "order": [
+        "2u",
+        "lower",
+        "1u",
+        "upper"
+      ],
+      "size": "2u",
+      "level": "lower",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999963
+    },
+    {
+      "order": [
+        "2u",
+        "lower",
+        "1u",
+        "upper"
+      ],
+      "size": "1u",
+      "level": "upper",
+      "passed": true,
+      "minimum_clearance_m": 0.003999999999999843
+    }
+  ]
+}
